@@ -1,0 +1,87 @@
+
+
+
+
+<div class="" *ngIf="!showSignIn">
+  <form class="form" #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)">
+    <div class="form-title"><span>sign up to your</span></div>
+     <div class="title-2"><span>SPACE</span></div>
+     <p style="color: red; font-size: 14px;">{{authError}}</p>
+     <div class="input-container">
+      <input class="input-pwd" type="text" placeholder="Enter Your Name" ngModel name="name" />
+    </div>
+     <div class="input-container">
+       <input class="input-mail" type="email" placeholder="Enter email" ngModel name="email" />
+       <span> </span>
+     </div>
+
+     <section class="bg-stars">
+       <span class="star"></span>
+       <span class="star"></span>
+       <span class="star"></span>
+       <span class="star"></span>
+     </section>
+
+
+     <div class="input-container">
+      <input class="input-pwd" type="password" placeholder="Enter password" ngModel name="password">
+    </div>
+    <div class="input-container">
+      <input class="input-pwd" type="password" placeholder="Repeat your password" ngModel name="repPassword">
+    </div>
+     <button type="submit" class="submit">
+       <span class="sign-text">Sign Up</span>
+     </button>
+
+     <p class="signup-link" (click)="openSignIn()">
+      Already have an account
+       <span class="up" >Sign In</span>
+     </p>
+
+  </form>
+</div>
+
+
+
+<!-- ****************/sign In/**************** -->
+
+
+<div class="" *ngIf="showSignIn">
+  <form class="form" #sellerSignIn="ngForm" (ngSubmit)="signIn(sellerSignIn.value)">
+    <div class="form-title"><span>sign up to your</span></div>
+     <div class="title-2"><span>SPACE</span></div>
+    <p style="color: red; font-size: 14px;">{{authError}}</p>
+     <div class="input-container">
+       <input class="input-mail" type="email" placeholder="Enter email" ngModel name="email" />
+       <span> </span>
+     </div>
+
+     <section class="bg-stars">
+       <span class="star"></span>
+       <span class="star"></span>
+       <span class="star"></span>
+       <span class="star"></span>
+     </section>
+
+
+     <div class="input-container">
+      <input class="input-pwd" type="password" placeholder="Enter password" ngModel name="password">
+    </div>
+
+     <button type="submit" class="submit">
+       <span class="sign-text">Sign Up</span>
+     </button>
+
+     <p class="signup-link" (click)="openSignUp()">
+      No account?
+       <span class="up">Sign Up</span>
+     </p>
+
+  </form>
+</div>
+
+
+
+
+
+

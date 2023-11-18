@@ -1,0 +1,121 @@
+{
+  "seller": [
+    {
+      "name": "quyen1",
+      "email": "quyen1@gmail.com",
+      "password": "123456",
+      "repPassword": "123456",
+      "id": "1"
+    },
+    {
+      "name": "ADMIN",
+      "email": "admin123@gmail.com",
+      "password": "admin123",
+      "role": "admin",
+      "repPassword": "admin123",
+      "id": "2"
+    },
+    {
+      "name": "quyen",
+      "email": "quyen@gmail.com",
+      "password": "123",
+      "repPassword": "123",
+      "id": "_7iRmHd"
+    },
+    {
+      "name": "Hoàng Xuân Quang",
+      "email": "quang@gmail.com",
+      "password": "123456",
+      "repPassword": "123456",
+      "id": "rG0QQC_"
+    }
+  ],
+  "banners": [
+    {
+      "id": "1",
+      "link": "assets/images/slider-img.jpg"
+    },
+    {
+      "id": "2",
+      "link": "assets/images/slider-img.jpg"
+    },
+    {
+      "id": "3",
+      "link": "assets/images/slider-img.jpg"
+    }
+  ],
+  "products": [
+    {
+      "name": "Harry Potter và Hòn đá phù thủy",
+      "price": 100,
+      "image": "https://sstruyen.vn/assets/img/story//images/story/Harry-Potter-va-Hon-da-Phu-thuy-(Quyen-1).jpg",
+      "description": "Vào sinh nhật lần thứ mười một của mình, Harry được người khổng lồ Rubeus Hagrid đến thăm, người nói với anh về khả năng phép thuật của anh và đưa anh đến Trường Phù thủy và Pháp sư Hogwarts. Ở đó, Harry tìm hiểu về lịch sử gia đình của mình, bao gồm cả cách họ bị giết bởi Voldemort, Phù thủy Hắc ám mạnh nhất mọi thời đại. Tuy nhiên, Harry đã sống sót một cách kỳ diệu, khiến anh trở thành anh hùng trong thế giới phù thủy. Tại Hogwarts, Harry được sắp xếp vào nhà Gryffindor cùng với những người bạn mới Ronald Weasley và Hermione Granger. Năm đầu tiên của họ tại Hogwarts không diễn ra suôn sẻ, vì họ gặp phải những bí mật nguy hiểm và bí ẩn.",
+      "id": "2"
+    },
+    {
+      "name": "Harry Potter và tên tù nhân ngục Azkaban",
+      "price": 500,
+      "image": "https://sstruyen.vn/assets/img/story//images/story/Harry-Potter-va-Ten-tu-nhan-nguc-Azkaban-(Quyen-3).jpg",
+      "description": "Harry Potter và tên tù nhân ngục Azkaban (tiếng Anh: Harry Potter and the Prisoner of Azkaban) là quyển thứ ba trong loạt truyện Harry Pottercủa J. K. Rowling. Truyện được phát hành bằng tiếng Anh tại Anh, Hoa Kỳ và nhiều nước khác vào ngày 8 tháng 9 năm 1999. nay trên 18 triệu bản tiếng Anh đã được bán. Bản dịch tiếng Việt được nhà văn Lý Lan dịch và xuất bản bởi Nhà xuất bản Trẻ trong 9 cuốn, và được in thành sách vào tháng 12 năm 2002.",
+      "id": "3"
+    },
+    {
+      "name": "Harry Potter và Phòng chứa Bí mật",
+      "price": "400",
+      "image": "https://sstruyen.vn/assets/img/story//images/story/Harry-potter-va-Phong-chua-bi-mat-(Quyen-2).jpg",
+      "description": "\nHarry Potter và Phòng chứa Bí mật (tiếng Anh: Harry Potter and the Chamber of Secrets) là quyển thứ hai trong loạt truyện Harry Potter của J. K. Rowling. Truyện được phát hành bằng tiếng Anh tại Anh, Hoa Kỳ và nhiều nước khác vào ngày 2 tháng 7 năm 1998. tháng 12 năm 2006 riêng tại Mỹ đã có khoảng 14.9 triệu bản được tiêu thụ. Bản dịch tiếng Việt được nhà văn Lý Lan dịch và xuất bản bởi Nhà xuất bản Trẻ thành 8 tập, in thành sách tháng 2 năm 2001.",
+      "id": "4"
+    },
+    {
+      "name": "Harry Potter và Chiếc cốc lửa",
+      "price": "500",
+      "image": "https://sstruyen.vn/assets/img/story//images/story/Harry-Potter-va-Chiec-coc-lua-(Quyen-4).jpg",
+      "description": "Harry Potter và Chiếc cốc lửa là câu chuyện về Harry Potters năm thứ tư tại Hogwarts. Đây là cuốn sách mà JK Rowling yêu thích nhất trong số bảy tập.",
+      "id": "5"
+    },
+    {
+      "name": "Harry Potter và hội Phượng hoàng",
+      "price": "600",
+      "image": "https://sstruyen.vn/assets/img/story//images/story/Harry-Potter-va-Hoi-Phuong-Hoang-(Quyen-5).jpg",
+      "description": "Harry Potter và hội Phượng hoàng (tiếng Anh: Harry Potter and the Order of the Phoenix) là quyển thứ 5 trong bộ sách Harry Potter của nhà vănJ. K. Rowling. Quyển này được đồng loạt xuất bản vào ngày 21 tháng 6 năm 2003 tại Anh, Hoa Kỳ, Canada, Úc và vài quốc gia khác. Trong ngày đầu tiên xuất bản, nó đã bán được gần 7 triệu cuốn riêng tại Hoa Kỳ và Anh. Nguyên bản tiếng Anh dài 38 chương và gồm khoảng 255.000 chữ.",
+      "id": "6"
+    },
+    {
+      "name": "Harry Potter và hoàng tử lai",
+      "price": "800",
+      "image": "https://sstruyen.vn/assets/img/story//images/story/Harry-Potter-va-Hoang-tu-lai-(Quyen-6).jpg",
+      "description": "Đang giữa mùa hè, nhưng có một màn sương giá trái mùa bám đầy lên những ô kính cửa sổ. Trong phòng ngủ của mình, tại nhà dượng Dursley trên đường Priver Drive, Harry Potter đang hồi hộp đợi chuyến viếng thăm của chính giáo sư Dumbledore. Lần gần nhất nó thầy Hiệu trưởng là trong một cuộc đấu ác liệt mặt-đối-mặt với Chúa tể Voldemort, và Harry không thể tin nổi giáo sư Dumbledore sẽ đích thân xuất hiện tại nhà dượng Dursley chứ không phải nơi nào khác. Tại sao cụ lại tới thăm nó lúc này? Điều gì khiến cụ không thể chờ cho tới khi Harry quay lại trường Hogwarts trong vài tuần tới? Năm thứ sáu của Harry tại trường Hogwarts đã có một cuộc khởi đầu khác thường, đúng vào lúc thế giới Muggle và thế giới phù thuỷ bắt đầu đan vào nhau...\nJ.K. Rowling kể lại những cuộc phiêu lưu mới nhất của Harry ở năm thứ sáu tại trường Hogwarts bằng một kỹ năng tuyệt vời và một phong cách nghẹt thở.",
+      "id": "9"
+    },
+    {
+      "name": "Harry Potter Và Bảo Bối Tử Thần",
+      "price": 1000,
+      "image": "https://otruyen.net/images/story/webp/200x260/harry-potter-va-bao-boi-tu-than-quyen-7.jpg",
+      "description": "Harry Potter và Bảo bối Tử thần (nguyên tác tiếng Anh: Harry Potter and the Deathly Hallows) là cuốn sách thứ bảy và cũng là cuối cùng của bộtiểu thuyết giả tưởng Harry Potter của nhà văn Anh J.K. Rowling.\nNguyên bản tiếng Anh được phát hành đồng thời tại Anh, Hoa Kỳ, Canada và một số nước khác (trong đó có Việt Nam) vào ngày 21 tháng 7 năm2007. Bản dịch tiếng Việt vẫn do nhà văn Lý Lan đảm nhiệm, xuất bản ngày 27 tháng 10 cùng năm",
+      "id": "CIZy6P9"
+    }
+  ],
+  "cart": [
+    {
+      "name": "Harry Potter và Hòn đá phù thủy",
+      "price": 11111,
+      "image": "https://sstruyen.vn/assets/img/story//images/story/Harry-Potter-va-Hon-da-Phu-thuy-(Quyen-1).jpg",
+      "description": "Vào sinh nhật lần thứ mười một của mình, Harry được người khổng lồ Rubeus Hagrid đến thăm, người nói với anh về khả năng phép thuật của anh và đưa anh đến Trường Phù thủy và Pháp sư Hogwarts. Ở đó, Harry tìm hiểu về lịch sử gia đình của mình, bao gồm cả cách họ bị giết bởi Voldemort, Phù thủy Hắc ám mạnh nhất mọi thời đại. Tuy nhiên, Harry đã sống sót một cách kỳ diệu, khiến anh trở thành anh hùng trong thế giới phù thủy. Tại Hogwarts, Harry được sắp xếp vào nhà Gryffindor cùng với những người bạn mới Ronald Weasley và Hermione Granger. Năm đầu tiên của họ tại Hogwarts không diễn ra suôn sẻ, vì họ gặp phải những bí mật nguy hiểm và bí ẩn.",
+      "id": "2",
+      "quantity": 1,
+      "userId": "1",
+      "productId": "2",
+      "userName": "quyen1"
+    }
+  ],
+  "category": [
+    {
+      "name": "Harry Potter",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Harry Potter"
+    }
+  ]
+}

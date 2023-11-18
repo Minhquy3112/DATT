@@ -1,0 +1,58 @@
+<div class="sidebar" data-image="assets/admin-img/sidebar-5.jpg">
+  <!--
+Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
+
+Tip 2: you can also add an image using data-image tag
+-->
+  <div class="sidebar-wrapper">
+      <div class="logo">
+          <a  class="simple-text" routerLink="/admin">
+              Timups
+          </a>
+      </div>
+      <ul class="nav">
+          <li class="nav-item active">
+              <a class="nav-link" routerLink="/admin">
+                <i class="fa fa-tachometer" aria-hidden="true"></i>
+                  <p>Dashboard</p>
+              </a>
+          </li>
+          <li>
+              <a class="nav-link" routerLink="info">
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                  <p>User Profile</p>
+              </a>
+          </li>
+          <li>
+              <a class="nav-link" routerLink="products">
+                <i class="fa fa-list" aria-hidden="true"></i>
+                  <p>List Products</p>
+              </a>
+          </li>
+          <li>
+              <a class="nav-link" routerLink="user">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                  <p>List Users</p>
+              </a>
+          </li>
+          <li>
+            <a class="nav-link" routerLink="add">
+              <i class="fa fa-plus" aria-hidden="true"></i>
+                <p>Create Product</p>
+            </a>
+        </li>
+        <li>
+          <a class="nav-link" routerLink="listCart">
+            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+              <p>List Cart</p>
+          </a>
+      </li>
+        <li>
+          <a (click)="LogOut()" class="nav-link" routerLink="add">
+            <i class="fa fa-sign-out" aria-hidden="true"></i>
+              <p>Log Out</p>
+          </a>
+      </li>
+      </ul>
+  </div>
+</div>

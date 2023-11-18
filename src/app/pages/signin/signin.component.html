@@ -1,0 +1,35 @@
+
+<div class="" >
+    <form class="form" #sellerSignIn="ngForm" (ngSubmit)="signIn(sellerSignIn.value)">
+      <div class="form-title"><span>sign in to your</span></div>
+       <div class="title-2"><span>SPACE</span></div>
+      <p style="color: red; font-size: 14px;">{{authError}}</p>
+       <div class="input-container">
+         <input class="input-mail" type="email" placeholder="Enter email" ngModel name="email" #email="ngModel" required email />
+         <p><span *ngIf="email.invalid && email.touched" style="color: red;">Vui lòng nhập Email</span></p>
+         <span> </span>
+       </div>
+       <section class="bg-stars">
+         <span class="star"></span>
+         <span class="star"></span>
+         <span class="star"></span>
+         <span class="star"></span>
+       </section>
+
+
+       <div class="input-container">
+        <input class="input-pwd" type="password" placeholder="Enter password" ngModel name="password" #password="ngModel" required minlength="2" maxlength="15" />
+        <p><span *ngIf="password.invalid && password.touched" style="color: red;">Vui lòng nhập Password</span></p>
+      </div>
+
+       <button [disabled]="sellerSignIn.invalid" class="submit">
+         <span class="sign-text">Sign Up</span>
+       </button>
+
+       <p class="signup-link" >
+        No account?
+         <a routerLink="../signup">Sign Up</a>
+       </p>
+
+    </form>
+  </div>

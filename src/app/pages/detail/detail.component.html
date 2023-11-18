@@ -1,0 +1,40 @@
+<div class="card-wrapper">
+  <div class="card">
+    <!-- card left -->
+    <div class="product-imgs">
+      <div class="img-display">
+        <div class="img-showcase">
+          <img src="{{products.image}}" alt="shoe image" width="200px">
+        </div>
+      </div>
+    </div>
+    <!-- card right -->
+    <div class="product-content">
+      <h2 style="font-size: 30px;" class="product-title">{{products.name}}</h2>
+
+
+
+      <div class="product-price">
+        <!-- <p class = "last-price">Old Price: <span>$257.00</span></p> -->
+        <p class="new-price">New Price: <span style="font-size: 30px;">${{products.price}}</span></p>
+      </div>
+
+      <div class="product-detail">
+        <p>{{products.description}}</p>
+      </div>
+
+      <div class="purchase-info">
+        <div class="handle">
+          <button (click)="handleQuantity('min')" class="">-</button>
+          <input type="text" max="20" value="{{productQuantity}}">
+          <button (click)="handleQuantity('max')">+</button>
+        </div>
+        <!-- <input type = "number" min = "1" value = "1" max="10"><br> -->
+
+        <button (click)="AddToCart()" class="btn btn-success">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

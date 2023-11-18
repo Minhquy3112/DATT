@@ -1,0 +1,45 @@
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card strpied-tabled-with-hover">
+                    <div class="card-header">
+                        <h4 class="card-title">Danh sách sản phẩm</h4>
+                        <form class="app-content-actions" [formGroup]="searchForm" (ngSubmit)="onSearch()">
+
+                            <input class="search-bar" formControlName="name" formControlPrice="price"
+                                placeholder="Search to name" type="text">
+                            <button type="submit" class="btn btn-success"><i class="fa fa-search"
+                                    aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                    <div class="card-body table-full-width table-responsive">
+                        <table class="table">
+                            <thead>
+                                <th class="id">ID</th>
+                                <th>NAME</th>
+                                <th>PRICE</th>
+                                <th>IMAGE</th>
+                                <th>DESCRIPTION</th>
+                                <th>ACTIVE</th>
+                            </thead>
+                            <tbody *ngFor="let product of products; let i = index">
+                                <tr>
+                                    <td >{{i + 1}}</td>
+                                    <td style="text-align: center;">{{product.name}}</td>
+                                    <td>{{product.price}}</td>
+                                    <td><img src="{{product.image}}" alt="" width="100px"></td>
+                                    <td>{{product.description}}</td>
+                                    <td style="display: flex; align-items: center; margin-top: 60px;">
+                                        <button (click)="onDelete(product.id)" class="btn btn-warning mx-2"><i
+                                                class="fa fa-trash" aria-hidden="true"></i></button>
+                                                <button [routerLink]="['/admin/edit/', product.id]" (click)="onEdit(product.id)" class="btn btn-danger"><i class="fa fa-cog" aria-hidden="true"></i></button>
+                                    </td>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
